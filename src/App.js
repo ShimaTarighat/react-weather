@@ -1,7 +1,7 @@
 import React from "react";
 import Weather from "./Weather";
 import Navbar from "./Navbar";
-import Logo from "./logo.png";
+import logo from "./logo.png";
 import "./App.css";
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="logo-bg my-3">
-          <img src={Logo} alt="logo of shecodes react" className=" logo" />
+          <img src={logo} alt="logo of shecodes react" className=" reactLogo" />
         </div>
         <Navbar />
         <div className="mt-3 mb-5">
@@ -22,11 +22,19 @@ export default function App() {
               Shima Miri
             </a>{" "}
             and is{" "}
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/ShimaTarighat/react-weather.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               open-sourced on GitHub
             </a>{" "}
             and{" "}
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://sparkling-sorbet-c21d38.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               hosted on Netlify
             </a>
           </footer>
