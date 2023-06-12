@@ -5,9 +5,9 @@ import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="WeatherInfo mt-2">
       <h1>{props.data.city}</h1>
-      <ul>
+      <ul className="list-unstyled m-3">
         <li>
           <FormattedDate date={props.data.date} />
         </li>
@@ -16,18 +16,18 @@ export default function WeatherInfo(props) {
       <div className="row mt-3">
         <div className="col-6">
           <div className="d-flex">
-            <div>
-              <WeatherIcon code={props.data.icon} size={50} />
+            <div className="pe-3">
+              <WeatherIcon code={props.data.icon} size={60} />
             </div>
-            <div>
+            <div className="foat-left ">
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>
         </div>
         <div className="col-6">
-          <ul>
+          <ul className="list-unstyled mt-2">
             <li>Humidity: {props.data.humidity} %</li>
-            <li>Wind:{Math.round(props.data.wind)}km/h</li>{" "}
+            <li>Wind: {Math.round(props.data.wind)}km/h</li>{" "}
           </ul>
         </div>
       </div>
