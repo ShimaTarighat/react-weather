@@ -3,10 +3,10 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div className=" sticky-top  rounded mt-2">
+    <div className="sticky-top rounded mt-2">
       <nav className="navbar navbar-expand-lg navbar-light bg-light promotion-banner rounded">
         <div className="container-fluid">
-          <a className="navbar-brand" href="./App">
+          <a className="navbar-brand" href="/">
             Current Weather
           </a>
           <button
@@ -36,7 +36,7 @@ export default function Navbar() {
                 <a
                   className="nav-link disabled"
                   href="/"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-disabled="true"
                 >
                   Disabled
