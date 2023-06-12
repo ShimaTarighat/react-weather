@@ -1,7 +1,7 @@
 import React from "react";
 import Weather from "./Weather";
 import Navbar from "./Navbar";
-import logo from "./logo.png";
+import Logo from "./logo.png";
 import "./App.css";
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="logo-bg my-3">
-          <img src={logo} alt="logo of shecodes react" className=" logo" />
+          <img src={Logo} alt="logo of shecodes react" className=" logo" />
         </div>
         <Navbar />
         <div className="mt-3 mb-5">
