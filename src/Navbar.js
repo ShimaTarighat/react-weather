@@ -1,4 +1,5 @@
 import React from "react";
+import App from "./App";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -6,7 +7,7 @@ export default function Navbar() {
     <div className=" sticky-top  rounded mt-2">
       <nav className="navbar navbar-expand-lg navbar-light bg-light promotion-banner rounded">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="./App">
             Current Weather
           </a>
           <button

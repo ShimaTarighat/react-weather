@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="logo-bg my-3">
-          <img src={logo} alt="logo" className=" logo" />
+          <img src={logo} alt="logo of shecodes react" className=" logo" />
         </div>
         <Navbar />
         <div className="mt-3 mb-5">
