@@ -1,0 +1,12 @@
+.WeatherTemperature strong {
+  color: #a77ef1;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.WeatherTemperature .Units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
