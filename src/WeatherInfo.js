@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
           <li className="fw-semibold fs-5 pb-2">
             <FormattedDate date={props.data.date} />
           </li>
-          <li className="">{props.data.description}</li>
+          <li>{props.data.description}</li>
         </ul>
       </div>
       <div className="row mt-3">

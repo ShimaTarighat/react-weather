@@ -4,12 +4,12 @@
   color: #a77ef1;
 }
 
-ul {
+.App ul {
   margin: 0;
   padding: 0;
 }
 
-li {
+.App li {
   margin: 0;
   padding: 0;
   color: rgb(70, 68, 68);
@@ -18,7 +18,7 @@ li {
   line-height: 19px;
 }
 
-a {
+.App a {
   text-decoration: none;
 }
 
