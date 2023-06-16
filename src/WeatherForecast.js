@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import WeatherForecastDay from "./WeatherForecastDay";
 import axios from "axios";
 import "./WeatherForecast.css";
@@ -24,7 +23,8 @@ export default function WeatherForecast(props) {
     const latitude = props.coordinates.lat;
     const longitude = props.coordinates.lon;
     const appid = "7ed26a6948c661d05fafe7355b41b2ec";
-    const apiUrl = `${url}lat=${latitude}&lon=${longitude}&appid=${appid}`;
+    const units = "metric";
+    const apiUrl = `${url}lat=${latitude}&lon=${longitude}&appid=${appid}&units=${units}`;
     axios.get(apiUrl).then(handleResponse);
 
     return null;
