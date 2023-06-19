@@ -28,6 +28,7 @@ export default function WeatherForecast(props) {
                 </div>
               );
             }
+            return null;
           })}
         </div>
       </div>
@@ -36,9 +37,9 @@ export default function WeatherForecast(props) {
     const url = "https://api.openweathermap.org/data/2.5/onecall?";
     const latitude = props.coordinates.lat;
     const longitude = props.coordinates.lon;
-    const appid = "7ed26a6948c661d05fafe7355b41b2ec";
+    const apiKey = "7ed26a6948c661d05fafe7355b41b2ec";
     const units = "metric";
-    const apiUrl = `${url}lat=${latitude}&lon=${longitude}&appid=${appid}&units=${units}`;
+    const apiUrl = `${url}lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
     axios.get(apiUrl).then(handleResponse);
 
     return null;
