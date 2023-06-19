@@ -14,7 +14,7 @@ export default function App() {
         <Navbar />
         <div className="mt-3 mb-5">
           <div className="border rounded p-3">
-            <Weather defaultCity="New york" />
+            <Weather defaultCity="Zahedan" />
           </div>
           <footer className="mt-3 text-black">
             This project was coded by{" "}
