@@ -3,10 +3,10 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div className="sticky-top rounded mt-2">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light promotion-banner rounded">
+    <div className="Navbar sticky-top rounded mt-2 ">
+      <nav className="navbar navbar-expand-lg rounded PromotionBanner ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand text-light" href="/">
             Current Weather
           </a>
           <button
@@ -23,23 +23,17 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Link
-                </a>
-              </li>
-              <li className="nav-item">
                 <a
-                  className="nav-link disabled"
+                  className="nav-link active text-light"
+                  aria-current="page"
                   href="/"
-                  tabIndex="-1"
-                  aria-disabled="true"
                 >
-                  Disabled
+                  5 Day Forecast
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-light" href="/">
+                  Hourly Forecast
                 </a>
               </li>
             </ul>

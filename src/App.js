@@ -16,7 +16,7 @@ export default function App() {
           <div className="border rounded p-3">
             <Weather defaultCity="New york" />
           </div>
-          <footer className="mt-3">
+          <footer className="mt-3 text-black">
             This project was coded by{" "}
             <a href="/" target="_blank" rel="noopener noreferrer">
               Shima Miri

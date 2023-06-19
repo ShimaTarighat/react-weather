@@ -1,0 +1,22 @@
+:root {
+  --submit-color: #a77ef1;
+  --search-color: rgb(231, 223, 252);
+  --hover-color: #916cd4;
+}
+
+.Weather .Search {
+  background-color: var(--search-color);
+  color: #fff;
+  border-color: var(--submit-color);
+  transition: var(--submit-color) 0.15s ease-in-out,
+    var(--search-color) 0.15s ease-in-out;
+}
+
+.Weather .Submit {
+  background-color: var(--submit-color);
+  color: #fff;
+}
+
+.Weather .Submit:hover {
+  background-color: var(--hover-color);
+}
